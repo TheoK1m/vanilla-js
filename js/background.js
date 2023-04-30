@@ -1,9 +1,4 @@
-const images = [
-    "0.jpg",
-    "1.jpg",
-    "2.jpg",
-    "3.jpg",
-];
+const images = ["0.jpeg", "1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
@@ -13,4 +8,4 @@ bgImage.src = `img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
 
-bgImage.classList.add("bg-style")
+bgImage.classList.add("bg-style");
